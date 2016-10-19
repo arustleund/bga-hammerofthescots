@@ -39,8 +39,6 @@
 
         /*********** Place your code below:  ************/
 
-        $this->tpl['OUTPUT_PHP_VERSION'] = phpversion();
-
         /*
         
         // Examples: set the value of some element defined in your tpl file like this: {MY_VARIABLE_ELEMENT}

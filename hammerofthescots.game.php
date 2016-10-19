@@ -15,6 +15,8 @@
   * In this PHP file, you are going to defines the rules of the game.
   *
   */
+  
+// php version: 5.3.2-1ubuntu4.30 
 
 
 require_once( APP_GAMEMODULE_PATH.'module/table/table.game.php' );
