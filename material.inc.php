@@ -19,18 +19,16 @@
  *
  */
 
-
-/*
-
-Example:
-
-$this->card_types = array(
-    1 => array( "card_name" => ...,
-                ...
-              )
+$this->areas = array(
+    "ross" => array(
+        "castleLimit" => 1,
+        "hasCathedral" => false
+    ),
+    "garmoran" => array(
+        "castleLimit" => 0,
+        "hasCathedral" => false
+    ),
 );
-
-*/
 
 
 

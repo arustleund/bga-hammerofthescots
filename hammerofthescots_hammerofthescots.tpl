@@ -39,6 +39,10 @@ var jstpl_some_game_item='<div class="my_game_item" id="my_game_item_${id}"></di
 
 */
 
-</script>  
+</script>
+
+<p>
+    {OUTPUT_PHP_VERSION}
+</p>
 
 {OVERALL_GAME_FOOTER}

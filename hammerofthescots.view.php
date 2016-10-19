@@ -39,6 +39,7 @@
 
         /*********** Place your code below:  ************/
 
+        $this->tpl['OUTPUT_PHP_VERSION'] = phpversion();
 
         /*
         
