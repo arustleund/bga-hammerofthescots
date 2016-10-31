@@ -22,11 +22,113 @@
 $this->areas = array(
     "ross" => array(
         "castleLimit" => 1,
-        "hasCathedral" => false
+        "hasCathedral" => false,
+        "coastal" => true
     ),
     "garmoran" => array(
         "castleLimit" => 0,
-        "hasCathedral" => false
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "moray" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "strathspey" => array(
+        "castleLimit" => 1,
+        "hasCathedral" => true,
+        "coastal" => true
+    ),
+    "buchan" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "lochaber" => array(
+        "castleLimit" => 1,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "badenoch" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => false,
+        "coastal" => false
+    ),
+    "mar" => array(
+        "castleLimit" => 1,
+        "hasCathedral" => false,
+        "coastal" => false
+    ),
+    "angus" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "argyll" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "atholl" => array(
+        "castleLimit" => 1,
+        "hasCathedral" => false,
+        "coastal" => false
+    ),
+    "mentieth" => array(
+        "castleLimit" => 3,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "fife" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => true,
+        "coastal" => true
+    ),
+    "lennox" => array(
+        "castleLimit" => 1,
+        "hasCathedral" => true,
+        "coastal" => true
+    ),
+    "carrick" => array(
+        "castleLimit" => 1,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "lanark" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => false,
+        "coastal" => false
+    ),
+    "lothian" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "dunbar" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "selkirkForest" => array(
+        "castleLimit" => 0,
+        "hasCathedral" => false,
+        "coastal" => false
+    ),
+    "teviot" => array(
+        "castleLimit" => 1,
+        "hasCathedral" => false,
+        "coastal" => false
+    ),
+    "galloway" => array(
+        "castleLimit" => 1,
+        "hasCathedral" => false,
+        "coastal" => true
+    ),
+    "annan" => array(
+        "castleLimit" => 2,
+        "hasCathedral" => false,
+        "coastal" => true
     ),
 );
 
