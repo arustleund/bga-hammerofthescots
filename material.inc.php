@@ -18,29 +18,6 @@
  * are available everywhere in your game logic code.
  *
  */
- 
-class Unit {
-    
-    public $id;
-    public $english;
-    public $name;
-    public $type;
-    public $movement;
-    public $combatOrder;
-    public $combatTarget;
-    public $maxCombatStrength;
-    
-    function __construct($id, $english, $name, $type, $movement, $combatOrder, $combatTarget, $maxCombatStrength) {
-        $this->id = $id;
-        $this->english = $english;
-        $this->name = $name;
-        $this->type = $type;
-        $this->movement = $movement;
-        $this->combatOrder = $combatOrder;
-        $this->combatTarget = $combatTarget;
-        $this->maxCombatStrength = $maxCombatStrength;
-    }
-}
 
 $this->unit_england_king = new Unit(0, true, "Edward", "king", 3, 2, 4, 4);
 $this->unit_england_archer_lancaster = new Unit(1, true, "Lancaster Archers", "archer", 2, 2, 3, 3);

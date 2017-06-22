@@ -18,9 +18,30 @@
   
 // php version: 5.3.2-1ubuntu4.30 
 
-
 require_once( APP_GAMEMODULE_PATH.'module/table/table.game.php' );
 
+class Unit {
+    
+    public $id;
+    public $english;
+    public $name;
+    public $type;
+    public $movement;
+    public $combatOrder;
+    public $combatTarget;
+    public $maxCombatStrength;
+    
+    function __construct($id, $english, $name, $type, $movement, $combatOrder, $combatTarget, $maxCombatStrength) {
+        $this->id = $id;
+        $this->english = $english;
+        $this->name = $name;
+        $this->type = $type;
+        $this->movement = $movement;
+        $this->combatOrder = $combatOrder;
+        $this->combatTarget = $combatTarget;
+        $this->maxCombatStrength = $maxCombatStrength;
+    }
+}
 
 class HammerOfTheScots extends Table
 {
